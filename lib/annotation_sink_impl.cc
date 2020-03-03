@@ -124,7 +124,7 @@ namespace gr {
           // then convert all of it to sample counts
           uint64_t sample_start = (secs_diff * d_sample_rate) + (frac_secs_diff * d_sample_rate);
 
-          GR_LOG_DEBUG(d_logger, "Annotation sample start is :" << sample_start);
+          GR_LOG_DEBUG(d_logger, boost::format("Annotation sample start is : %" PRIu64) %sample_start);
           uint64_t sample_count =
             (duration_secs * d_sample_rate) + (duration_frac_secs * d_sample_rate);
           sample_start_pmt = pmt::from_uint64(sample_start);

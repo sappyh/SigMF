@@ -63,7 +63,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [24, 120]
+    coordinate: [48, 164.0]
     rotation: 0
     state: enabled
 - name: blocks_throttle_0
@@ -82,7 +82,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [216, 148]
+    coordinate: [352, 204.0]
     rotation: 0
     state: enabled
 - name: qtgui_waterfall_sink_x_0
@@ -143,7 +143,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [408, 36]
+    coordinate: [720, 72.0]
     rotation: 0
     state: enabled
 - name: sigmf_sink_0
@@ -151,9 +151,9 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
+    append: 'False'
     author: Cate Miller
     comment: ''
-    debug: 'False'
     description: This is an example output file
     field_10_key: ''
     field_10_type: string
@@ -235,12 +235,13 @@ blocks:
     license: CC-BY-SA
     num_extra_fields: '0'
     samp_rate: samp_rate
+    time_mode: gr_sigmf.sigmf_time_mode_relative
     type: fc32
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [408, 136]
+    coordinate: [704, 252.0]
     rotation: 0
     state: enabled
 
